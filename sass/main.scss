@@ -1,0 +1,9 @@
+@use 'title' as *;
+@use 'parte1' as *;
+@use 'global' as *;
+
+body{
+    margin: 0;
+   background-color: $green;
+
+}

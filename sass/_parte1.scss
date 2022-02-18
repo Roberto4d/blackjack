@@ -1,0 +1,41 @@
+@use 'global' as *;
+.gridbj{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: 4%;
+   
+    .titulo{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 5%;
+        h2{
+            color: $black;
+        }
+    }
+   
+    .carta{
+        display: flex;
+        justify-content: left;
+        img{
+            max-width: 200px;
+            padding-bottom: 20px;
+        }
+    }
+    .botones{
+        display: flex;
+        justify-content: left;
+        .btn{
+            background-color: $black;
+            color: $yellow;
+            margin: 5%;
+        }
+        .btn:hover{
+            background-color: $yellow;
+            color: $black;
+        }
+    }
+
+}

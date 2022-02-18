@@ -1,0 +1,54 @@
+.titlebj h1 {
+  background-color: #0D1F2D;
+  color: #33691A;
+  padding: 50px;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  text-align: center;
+  font-size: 42px;
+}
+
+.gridbj {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  margin: 4%;
+}
+.gridbj .titulo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+.gridbj .titulo h2 {
+  color: #0D1F2D;
+}
+.gridbj .carta {
+  display: flex;
+  justify-content: left;
+}
+.gridbj .carta img {
+  max-width: 200px;
+  padding-bottom: 20px;
+}
+.gridbj .botones {
+  display: flex;
+  justify-content: left;
+}
+.gridbj .botones .btn {
+  background-color: #0D1F2D;
+  color: #F7CE06;
+  margin: 5%;
+}
+.gridbj .botones .btn:hover {
+  background-color: #F7CE06;
+  color: #0D1F2D;
+}
+
+body {
+  margin: 0;
+  background-color: #33691A;
+}
+
+/*# sourceMappingURL=output.css.map */
